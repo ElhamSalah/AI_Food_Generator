@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Food-Recipee-Generator{
+    height: 50vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: url(../Image/background-picture.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.Food-Recipee-Generator .content{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-blend-mode:luminosity;
+    background-position: center;
+    padding: 0px 15px;
+    max-width: 760px;
+    text-align: center;
+    position: relative;
+   
+}
+.Food-Recipee-Generator::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    opacity: 0.4;
+    height: 100%;
+    background: #2b2a2ad7;
+}
+
+    
+h1{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgba(235, 227, 227, 0.975);
+  
+}
+strong{
+    color: #b84e11;
+}
+p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height:30px;
+    color: rgb(220, 217, 217);
+
+}
+form{
+   padding: 5px;
+   margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgb(211, 142, 13, 0.4) ;
+    display: flex;
+    margin-bottom: 30px;
+}
+.prompt{
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px;
+    width:80%;
+    outline: none;
+
+}
+.button{
+    background-color:rgb(211, 142, 13) ;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 10px 30px;
+
+}
+.button:hover{
+    opacity: .8;
+}
+.recipe{
+    margin-top: 30%;
+    border-left: 3px solid rgb(211, 142, 13);
+    box-shadow: 0px 10px 10px  rgb(211, 142, 13) ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 20px;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+footer {
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(40, 39, 39);
+    display: hidden;
+  }
+  footer a{
+    color: #b84e11;
+    text-decoration: none;
+  }
